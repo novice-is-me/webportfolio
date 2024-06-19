@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital@0;1&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <!-- Navbar -->    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-md-4 sticky-top" id="navbar">  
+        <div class="container-fluid px-5 px-md-0">         
+            <a class="navbar-brand" href="#" id="navbar-title">REGINA</a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto d-flex gap-md-5 gap-0">      
+                    <li class="nav-item"> 
+                        <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#tools">Tools</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link active" href="#contact">Contacts</a> 
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <!-- Landing Section -->  
+    <section class="container-fluid p-md-5 p-4 pb-0" id="landing">       
+        <div class="row d-flex justify-content-center align-items-center text-white"> 
+            <div class="col-md-6 text-center pb-5 pb-md-0 px-md-3 order-2 order-md-1">     
+                <p id="landing-text">Hi! I am</p>
+                <h1 id="landing-name">Regina <span>Jalandoni</span></h1>    
+                <h4 id="landing-role">Full Stack Web Developer</h4>     
+                <p id="about-text" class="mt-3 px-3 px-md-0 mb-3">An aspiring Full Stack Developer who is passionate in creating interactive websites and 
+                    seamless experience on web. With a keen eye for detail and a drive for excellence, I am committed to 
+                    delivering high-quality web applications that meet user needs</p> 
+                <div class="mt-5">  
+                    <a href="#projects" class="p-3 text-decoration-none" id="landing-btn">Check my work!</a>  
+                </div> 
+            </div>      
+            <div class="col-md-6 d-flex justify-content-center order-1 order-md-2">      
+                <img src="./images/about.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+        
+    <!-- Project Section -->
+    <section class="container-fluid p-md-5 p-4" id="projects"> 
+        <h4 class="text-center mb-5 text-uppercase">Projects I made</h4>
+        <div class="row px-3 px-md-0">  
+           <div class="col-md-3 col-sm-6 mb-3 d-flex justify-content-center"> 
+            <div class="card" style="width: 18rem;">
+                <img src="./images/gym.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">PowerLab Gym</h5>
+                  <p class="card-text">A simple gym website that includes information and featured services provided by the company.</p>
+                  <a href="https://powerlab-gym.netlify.app/" class="btn btn-primary" target="_blank">View Live</a>
+                </div> 
+              </div> 
+           </div> 
+           <div class="col-md-3 col-sm-6 mb-3 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/food.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Recipe Website</h5>
+                  <p class="card-text">A simple recipe website that shows featured and popular recipes together with their
+                    information.  
+                  </p>
+                  <a href="https://novice-is-me.github.io/Food-Recipe-Blog/" class="btn btn-primary" target="_blank">View Live</a>
+                </div>
+              </div>
+           </div>
+           <div class="col-md-3 col-sm-6 mb-3 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/jokes.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Jokes Compilation</h5>
+                  <p class="card-text">A website that displays compilation of jokes found at internet to brought happiness.</p>
+                  <a href="https://novice-is-me.github.io/Free-Api/" class="btn btn-primary" target="_blank">View Live</a>
+                </div> 
+              </div>
+           </div> 
+           <div class="col-md-3 col-sm-6 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/qoutes.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Qoutes Generator</h5>
+                  <p class="card-text">A website that can generates a simple qoute from famous persons for your day.</p>
+                  <a href="https://novice-is-me.github.io/Quote-Generator/" class="btn btn-primary" target="_blank">View Live</a>
+                </div> 
+              </div> 
+           </div> 
+        </div>
+    </section>
+
+    <!-- Tools Section -->  
+    <section class="container-fluid p-md-5 p-4" id="tools">        
+        <div class="row gap-4 d-flex justify-content-center">    
+            <h4 id="tools-header" class="text-center text-uppercase">Tools I Used</h4>  
+            <!-- Front End --> 
+            <div class="col-6 col-md-3 tools-card text-center p-2 p-md-4 rounded-2">     
+                <h4 class="text-white mt-3 mt-md-0 mb-3 tools-title">Front End</h4>  
+                <div class="row gy-2">   
+                    <div class="col-6 col-md-4"> 
+                        <img src="./images/html.png" alt=""> 
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <img src="./images/css.png" alt="">
+                    </div> 
+                    <div class="col-6 col-md-4">
+                        <img src="./images/bootstrap.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-6">
+                        <img src="./images/tailwind.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-6 mx-auto mx-md-0"> 
+                        <img src="./images/react.png" alt="">
+                    </div>   
+                </div> 
+            </div>   
+            <!-- Back end --> 
+            <div class="col-6 col-md-3 tools-card text-center p-2 p-md-4 rounded-2">
+                <h4 class="text-white mt-3 mt-md-0 mb-3 tools-title">Back End</h4> 
+                <div class="row gy-2">   
+                    <div class="col-6">  
+                        <img src="./images/js.png" alt="">
+                    </div> 
+                    <div class="col-6">
+                        <img src="./images/express.png" alt="">
+                    </div>  
+                    <div class="col-6">
+                        <img src="./images/mongo.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="./images/node.png" alt="">
+                    </div>  
+                </div>  
+            </div> 
+             <!-- Other Tools  -->
+            <div class="col-6 col-md-3 tools-card text-center p-2 p-md-4 rounded-2">  
+                <h4 class=" text-white mt-3 mt-md-0 mb-3 tools-title text-uppercase">Other Tools</h4>     
+                <div class="row gy-2">     
+                    <div class="col-6 col-md-4"> 
+                        <img src="./images/figma.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <img src="./images/postman.png" alt="">
+                    </div> 
+                    <div class="col-6 col-md-4">
+                        <img src="./images/github.png" alt="">
+                    </div>
+                    <div class="col-6 col-md-6">
+                        <img src="./images/visual.png" alt=""> 
+                    </div>
+                    <div class="col-6 col-md-6 mx-auto mx-md-0">
+                        <img src="./images/sublime.png" alt="">
+                    </div>   
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container-fluid p-md-5 p-4" id="contact">
+        <div class="row d-flex flex-md-row flex-column">    
+            <!-- For social media -->
+            <div class="col-12 col-md-6 my-auto">   
+                <h4 class="text-center my-3 text-uppercase">Contact Me</h4> 
+                <div> 
+                    <ul class="d-flex gap-3 justify-content-center p-0"> 
+                        <li>  
+                            <a href="https://www.facebook.com/regina.jalandoni" target="_blank">
+                                <img src="./images/fb.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/regina-jalandoni-b86172275/" target="_blank">
+                                <img src="./images/linkedin.png" alt="">
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://github.com/novice-is-me" target="_blank">
+                                <img src="./images/github.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- For forms -->
+            <div class="col-12 col-md-6">      
+                <form action="https://www.google.com/" method="GET" class="p-md-4 p-3">     
+                    <div class="d-flex flex-column justify-content-center"> 
+                        <div class="mb-3"> 
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                        </div> 
+                        <div class="mb-3"> 
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3"> 
+                            <label for="message" class="form-label">Message Me!</label>
+                            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                        </div>  
+                        <button type="submit" class="w-50 mx-auto p-3">Send</button>
+                    </div> 
+                </form>                 
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer --> 
+    <footer class="pt-3 text-center">       
+        <p>&copy; Regina Jalandoni || Web Developer || 2024</p>
+    </footer> 
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

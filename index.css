@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+#navbar,
+#landing,
+#contact{   
+    background-color: #040D12 !important;  
+}  
+
+.navbar-toggler-icon{
+    background-image: url('./images/burger.png') !important; 
+}
+#navbar-title{
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 700; 
+    font-size: 2rem;     
+    color: #93B1A6;  
+}
+
+.navbar-toggler-icon{
+    color: white; 
+}
+
+.nav-item a{ 
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 500; 
+    color: #FFFFFF !important;   
+    font-size: 14px;   
+}
+
+#landing img{
+    height: 500px;  
+    background-size: cover;
+    border-bottom: 1px solid #93B1A6; 
+}
+
+#landing-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;  
+    font-size: 2rem;   
+}
+
+#landing-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900; 
+    text-transform: uppercase; 
+    font-size: 3.5rem;   
+}
+
+#landing-name span{
+    color: #93B1A6; 
+}
+
+#landing-role{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;      
+    color: #93B1A6; 
+}
+
+#about-text{
+    line-height: 30px;    
+}
+
+#landing-btn,
+form button{ 
+    border-radius: 10px;   
+    background-color: #393E46; 
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    border: none; 
+    transition: 0.2s; 
+}
+
+#landing-btn:hover,
+form button:hover{
+    background-color: #93B1A6;
+    transform: translate(-0.25rem, -0.25rem); 
+    box-shadow: 0.25rem 0.25rem #FFFFFF; 
+    color: black; 
+    cursor: pointer;    
+} 
+
+#landing-btn:active,
+form button:active{ 
+    transform: translate(0); 
+    box-shadow: none; 
+}
+
+#projects{ 
+    background-color: #1C2226;  
+}
+
+#projects h4,
+#tools-header, 
+#contact h4{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    font-size: 2rem; 
+    color: #93B1A6;    
+}
+
+#tools{ 
+    background-image: url('./images/tools-bg.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+.tools-card{ 
+    background: rgb(255,255,255, 0.2);      
+}     
+
+.tools-title{
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact ul li{ 
+    list-style-type: none !important;  
+}  
+
+.form-label{ 
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    font-size: 1.5rem;  
+}
+
+.form-input{ 
+    height: 30px; 
+    padding: 1.5rem;    
+}
+
+form{
+    background-color: #526D82 !important;
+}
+
+footer{
+    background-color: #F7F9F2; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500; 
+}
+
+footer p{
+    padding-bottom: 0 !important;  
+} 
+
+/* For mobile-tablet */
+@media (max-width:768px){       
+    #landing img{    
+        border-bottom: 0;   
+        height: 400px;  
+        margin-bottom: 2em;   
+    }
+
+    #landing-name{
+        font-size: 2rem; 
+    }
+
+    #landing-text{
+        font-size: 15px;
+    }
+
+    #landing-role{
+        font-size: 1.5rem; 
+    }
+}
+
+/* For very small screen - mobile */
+@media (max-width: 576px){
+    #landing img{
+        height: 300px;    
+    } 
+
+    .tools-card{
+        width: 80% !important;  
+    }
+} 
